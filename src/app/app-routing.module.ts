@@ -8,7 +8,7 @@ const routes: Routes = [
 
   {path: '', component: HomeComponent, data: {animation: 'home'}, },
   {path: 'sobre', component: SobreComponent, data: {animation: 'sobre'},},
-  {path: 'pobreza', component: PobrezaComponent, data: {animation: 'pobreza'}}
+  {path: 'pobreza', component: PobrezaComponent, data: {animation: 'pobreza'}},
 
 ];
 

@@ -1,4 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.menu-mobile{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 60%;
+    width: 40vw;
+    height: 100vh;
+    border-radius: 5px;
+    display: none;
+    z-index: 1;
+    flex-wrap: nowrap;
+}
+.nav-list-mobile{
+    width: 40vw;
+    height: 100vh;
+    background: linear-gradient(rgb(122, 13, 13),rgb(109, 17, 17),rgb(116, 3, 3));
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4px;
+}
+.menu-botao-mobile{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-botao-mobile button{
+    background-color: transparent;
+    border: none;
+    align-items: flex-end;
+}
+
+.conteiner-menu{
+    width: 80%;
+    height: 100%;
+    padding-top: 40px;
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+
+.conteiner-menu:hover{
+    width: 80%;
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    background-color: rgb(145, 10, 10);
+    border-radius: 8px;
+}
+
+.nav-link-mobile{
+    width: 100px;
+    height: 60px;
+    color: white;
+    text-decoration: none;
+}
+.nav-link-mobile:hover{
+    color: white;
+    text-decoration: none;
+}
 
 .menu{
     /* width: 100vw; */
