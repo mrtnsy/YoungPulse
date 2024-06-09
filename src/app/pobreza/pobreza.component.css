@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 .conteudo{
     min-height: 100%;
@@ -56,11 +57,91 @@
 .retrato{
     background-image: url(../../assets/img/pobreza/pobreza.jpg);
     background-size: cover;
-    background-color: blue;
     width: 50%;
 }
 
-.ong{
-    background-color: rgb(236, 166, 73);
+.ong-bibliografia{
+    /* background-color: rgb(236, 166, 73); */
+    background: linear-gradient(rgb(243, 242, 242),rgb(223, 221, 221));
     height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.assunto{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 20%;
+    
+}
+
+.conteudo-esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 75%;
+    gap: 20px;
+    border-right: 1px solid rgba(128, 128, 128, 0.411);
+    
+}
+
+.secao-dividida{
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    
+}
+
+.secao-dividida ul{
+    list-style: none;
+}
+
+.secao-dividida a{
+    color: rgb(202, 99, 3);
+    text-decoration: none;
+    border-radius: 8px;
+
+}
+
+.secao-dividida a:hover{
+    color:rgb(14, 14, 122);
+}
+
+.msc-vid-pal{
+    background: linear-gradient(rgb(243, 242, 242),rgb(223, 221, 221));
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sub-titulo{
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 10px;
+    border-bottom:1px solid rgba(128, 128, 128, 0.527);
+    margin: 50px;
+}
+
+.secao-unica{
+    height: 33%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+iframe{
+    border: 5px outset rgb(218, 143, 6);
+    width: 500px;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px 2px grey;
 }

@@ -7,13 +7,15 @@ import { SobreComponent } from './sobre/sobre.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
 import { PobrezaComponent } from './pobreza/pobreza.component';
+import { SustentabilidadeComponent } from './sustentabilidade/sustentabilidade.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SobreComponent,
     HomeComponent,
-    PobrezaComponent
+    PobrezaComponent,
+    SustentabilidadeComponent
   ],
   imports: [
     BrowserModule,
