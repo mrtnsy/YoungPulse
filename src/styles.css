@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+.fixo{
+    height: 75vh;
+    text-align: center;
+}
+
+
+::-webkit-scrollbar{
+    width: 14px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(218, 216, 216);
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(180, 37, 37);
+    border-radius: 8px;
+
+}

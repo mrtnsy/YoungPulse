@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.menu{
+    /* width: 100vw; */
+    height: 25vh;
+    color: white;
+    /* background-color: rgba(141, 2, 2, 0.877); */
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.img{
+    border-radius: 2px;
+    transition: 1s;
+    background-color:  transparent;
+}
+.img:hover{
+    transform: scale(1.1) ;
+}
+
+.logo h1{
+    display: none;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-link{
+    position: relative;
+    text-decoration: none;
+    margin: 20px;
+    font-size: larger;
+    color: rgba(119, 5, 5, 0.993);
+    /* color: white; */
+
+}
+.nav-link:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(100, 10, 10);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.nav-link:hover:after{
+    width: 100%;
+}
+
+.mobile-button button{
+    display: none;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(156, 10, 10);
+    border-radius: 8px;
+    border: none;
+}
+@media screen and (max-width: 1300px) {
+    .mobile-button button{
+        display: block;
+    }
+
+    .nav-list{
+        display: none;
+    }
+    img{
+        width: 80%;
+    }
+
+}

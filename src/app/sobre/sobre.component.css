@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.conteudo{
+    min-height: 100%;
+    background-image: url(../../assets/img/natureza.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;   
+}
+
+
+.titulo{
+    width: 70%;
+
+}
+
+.titulo h1{
+    font-family: 'Lobster', sans-serif;
+    text-decoration: overline;
+    color: rgb(18, 66, 60);
+    letter-spacing: 4px;
+    font-size: 2vw;
+}
+
+.paragrafo{
+    width: 70%;
+    padding: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 3px 3px 30px 1px rgba(123, 233, 227, 0.699);
+    background-color: rgba(239, 244, 245, 0.377);
+    backdrop-filter :blur(12px);
+}
+
+.paragrafo p{
+    text-align: justify;
+    color: rgb(17, 17, 17);
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    letter-spacing: 2px;
+}
+
