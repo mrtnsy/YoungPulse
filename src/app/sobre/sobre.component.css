@@ -14,27 +14,20 @@
     gap: 60px;   
 }
 
-
-.titulo{
-    width: 70%;
-
-}
-
 .titulo h1{
     font-family: 'Lobster', sans-serif;
     text-decoration: overline;
     color: rgb(18, 66, 60);
-    letter-spacing: 4px;
     font-size: 2vw;
 }
 
 .paragrafo{
-    width: 70%;
-    padding: 30px;
+    width: 80%;
+    padding: 40px;
     border-radius: 5px;
-    border-width: 1px;
+    border: 1px solid rgba(6, 245, 233, 0.4);
     box-shadow: 3px 3px 30px 1px rgba(123, 233, 227, 0.699);
-    background-color: rgba(239, 244, 245, 0.377);
+    background-color: rgba(255, 255, 255, 0.6);
     backdrop-filter :blur(12px);
 }
 
@@ -44,6 +37,37 @@
     font-family: 'Varela Round', sans-serif;
     font-weight: bold;
     font-size: 1vw;
-    letter-spacing: 2px;
+}
+
+.integrantes{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgba(6, 245, 233, 0.4);
+    border-radius: 8px;
+    gap: 50px;
+    padding: 50px;
+    flex-wrap: wrap;
+    backdrop-filter :blur(80px);
+}
+
+.integrantes p{
+    color: rgba(0, 0, 0, 0.993);
+    width: 100%;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.retrato{
+    display: flex;
+    flex-direction: column;
+}
+
+.foto{
+    margin-bottom: 25px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border: px solid rgba(119, 5, 5, 0.7);
 }
 
