@@ -12,6 +12,7 @@ import { GlobalizacaoComponent } from './globalizacao/globalizacao.component';
 import { OrdemMundialComponent } from './ordem-mundial/ordem-mundial.component';
 import { CorrupcaoComponent } from './corrupcao/corrupcao.component';
 import { EstadoGovComponent } from './estado-gov/estado-gov.component';
+import { PoliticasPublicasComponent } from './politicas-publicas/politicas-publicas.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { EstadoGovComponent } from './estado-gov/estado-gov.component';
     GlobalizacaoComponent,
     OrdemMundialComponent,
     CorrupcaoComponent,
-    EstadoGovComponent
+    EstadoGovComponent,
+    PoliticasPublicasComponent
   ],
   imports: [
     BrowserModule,

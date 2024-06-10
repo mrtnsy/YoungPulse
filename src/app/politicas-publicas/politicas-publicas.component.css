@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.conteudo{
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.retrato{
+    margin: 0px;
+    max-width: 40%;
+}
+.definicao{
+    margin: 0px;
+    background: linear-gradient(rgb(243, 242, 242),rgb(223, 221, 221));
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3%;
+
+}
+.titulo{
+    padding-left: 5%;
+    /* background-color: yellow; */
+}
+
+.titulo h1{
+    /* background-color: blue; */
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2vw;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(49, 7, 7);
+}
+
+.paragrafo{
+    padding-left: 5%;
+    /* background-color: green; */
+}
+
+.paragrafo p{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    max-width: 75%;
+    color: rgb(15, 4, 4);
+}
+
+.retrato{
+    background-image: url(../../assets/img/politicasPublicas/politicas-publicas.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+    width: 50%;
+}
+
+.ong-bibliografia{
+    padding-bottom: 50px;
+    background: linear-gradient(rgb(243, 242, 242),rgb(223, 221, 221));
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.assunto{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 20vh;
+    
+}
+
+.conteudo-esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 75%;
+    gap: 20px;
+    border-right: 1px solid rgba(128, 128, 128, 0.411);
+    
+}
+
+.conteudo-direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 75%;
+    gap: 20px;
+    border-right: 1px solid rgba(128, 128, 128, 0.411);
+}
+
+.secao-dividida{
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    
+}
+
+.secao-dividida ul{
+    list-style: none;
+}
+
+.secao-dividida a{
+    color: rgb(202, 99, 3);
+    text-decoration: none;
+    border-radius: 8px;
+
+}
+
+.secao-dividida a:hover{
+    color:rgb(122, 48, 14);
+}
+
+.msc-vid-pal{
+    padding-bottom: 50px;
+    background: linear-gradient(rgb(243, 242, 242),rgb(223, 221, 221));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sub-titulo{
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 10px;
+    border-bottom:1px solid rgba(128, 128, 128, 0.527);
+    margin: 50px;
+}
+
+.secao-unica{
+    height: 33%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+iframe{
+    border: 5px outset rgb(218, 143, 6);
+    width: 500px;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px 2px grey;
+}

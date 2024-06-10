@@ -8,6 +8,7 @@ import { GlobalizacaoComponent } from './globalizacao/globalizacao.component';
 import { OrdemMundialComponent } from './ordem-mundial/ordem-mundial.component';
 import { CorrupcaoComponent } from './corrupcao/corrupcao.component';
 import { EstadoGovComponent } from './estado-gov/estado-gov.component';
+import { PoliticasPublicasComponent } from './politicas-publicas/politicas-publicas.component';
 
 const routes: Routes = [
 
@@ -18,9 +19,8 @@ const routes: Routes = [
   {path: 'globalizacao', component: GlobalizacaoComponent, data: {animation: 'globalizacao'}},
   {path: 'ordem-mundial', component: OrdemMundialComponent, data: {animation: 'ordem-mundial'}},
   {path: 'corrupcao', component: CorrupcaoComponent, data: {animation: 'corrupcao'}},
-  {path: 'estado-gov', component: EstadoGovComponent, data: {animation: 'estado-gov'}}
-  
-
+  {path: 'estado-gov', component: EstadoGovComponent, data: {animation: 'estado-gov'}},
+  {path: 'politicas-publicas', component: PoliticasPublicasComponent, data: {animation: 'politicas-publicas'}}
 
 ];
 
