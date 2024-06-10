@@ -61,9 +61,8 @@
 }
 
 .ong-bibliografia{
-    /* background-color: rgb(236, 166, 73); */
+    padding-bottom: 50px;
     background: linear-gradient(rgb(243, 242, 242),rgb(223, 221, 221));
-    height: 75vh;
     display: flex;
     flex-wrap: wrap;
 }
@@ -74,7 +73,7 @@
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 20%;
+    height: 20vh;
     
 }
 
@@ -88,6 +87,17 @@
     gap: 20px;
     border-right: 1px solid rgba(128, 128, 128, 0.411);
     
+}
+
+.conteudo-direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 75%;
+    gap: 20px;
+    border-right: 1px solid rgba(128, 128, 128, 0.411);
 }
 
 .secao-dividida{
@@ -113,12 +123,12 @@
 }
 
 .secao-dividida a:hover{
-    color:rgb(14, 14, 122);
+    color:rgb(122, 48, 14);
 }
 
 .msc-vid-pal{
+    padding-bottom: 50px;
     background: linear-gradient(rgb(243, 242, 242),rgb(223, 221, 221));
-    height: 200vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
