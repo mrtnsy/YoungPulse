@@ -3,7 +3,8 @@
 
 .conteudo{
     min-height: 100%;
-    background-image: url(../../assets/img/sol.png);
+    /* background-image: url(../../assets/img/sol.png); */
+    background-image: url(../../assets/img/homeTemp.png);
     background-size: cover;
     background-position: center;
     padding-top: 75px;

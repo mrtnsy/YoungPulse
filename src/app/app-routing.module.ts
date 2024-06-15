@@ -12,12 +12,13 @@ import { PoliticasPublicasComponent } from './politicas-publicas/politicas-publi
 
 const routes: Routes = [
 
-  {path: '', component: CorrupcaoComponent, data: {animation: 'corrupcao'}},
+  {path: '', component: HomeComponent, data: {animation: 'home'}},
+  {path: 'corrupcao', component: CorrupcaoComponent, data: {animation: 'corrupcao'}},
   {path: 'estado-gov', component: EstadoGovComponent, data: {animation: 'estado-gov'}},
   {path: 'globalizacao', component: GlobalizacaoComponent, data: {animation: 'globalizacao'}},
   {path: 'ordem-mundial', component: OrdemMundialComponent, data: {animation: 'ordem-mundial'}},
   {path: 'pobreza', component: PobrezaComponent, data: {animation: 'pobreza'}},
-  {path: 'politicas-publicas', component: PoliticasPublicasComponent, data: {animation: 'politicas-publicas'}}
+  {path: 'politicas-publicas', component: PoliticasPublicasComponent, data: {animation: 'politicas-publicas'}},
   {path: 'sobre', component: SobreComponent, data: {animation: 'sobre'},},
   {path: 'sustentabilidade', component: SustentabilidadeComponent, data: {animation: 'sustentabilidade'}},
 ];
