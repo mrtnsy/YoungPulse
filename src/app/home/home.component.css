@@ -3,19 +3,44 @@
 
 .conteudo{
     min-height: 100%;
-    /* background-image: url(../../assets/img/sol.png); */
-    background-image: url(../../assets/img/homeTemp.png);
-    background-size: cover;
+    background-image: url(../../assets/img/sol.png);
     background-position: center;
-    padding-top: 75px;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    /* background-image: linear-gradient(0.75turn, rgb(202, 201, 201), white, white,rgb(202, 201, 201)); */
+    /* padding-top: 75px; */
     display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    gap: 60px;   
+    padding: 10%;
+    /* gap: 60px;    */
+    gap: 40px
+}
+
+.titulo{
+    display: flex;
+    align-items: baseline;
+}
+
+.titulo h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+}
+.paragrafo{
+    width: 50%;
+    padding: 30px;
+    text-align: justify;
+    border: 1px solid rgba(180, 178, 178, 0.342);
+    box-shadow: 10px 10px 20px 10px rgba(123, 233, 228, 0.767);
+
 }
 
 
-.titulo{
+/* .titulo{
     text-decoration: overline;
     color: rgb(48, 47, 47);
     background-color: rgba(0, 38, 255, 0.24);
@@ -23,9 +48,9 @@
     font-family: 'Roboto', sans-serif;
     width: 70%;
     letter-spacing: 4px;
-}
+} */
 
-.paragrafo{
+/* .paragrafo{
     width: 50%;
     padding: 30px;
     border-radius: 5px;
@@ -37,7 +62,7 @@
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
     backdrop-filter :blur(10px);
-}
+} */
 
 .container{
     width: 100%;
